@@ -24,11 +24,8 @@
         <label for="address">Address:</label><br>
         <input type="text" id="address" name="address" required><br><br>
 
-        <label for="course">Course:</label><br>
-        <input type="text" id="course" name="course" required><br><br>
-
-        <label for="section">Section:</label><br>
-        <input type="text" id="section" name="section" required><br><br>
+        <label for="course">Course&Section:</label><br>
+        <input type="text" id="course&Section" name="course&Section" required><br><br>
 
         <input type="submit" value="Submit">
     </form>
