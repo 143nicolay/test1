@@ -4,31 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('https://via.placeholder.com/1500'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+            cursor: pointer;
+        }
+    </style>
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <body>
-    <h2>Student Registration Form</h2>
-    <form action="submit.php" method="POST">
-        <label for="firstname">First Name:</label><br>
-        <input type="text" id="firstname" name="firstname" required><br><br>
-
-        <label for="lastname">Last Name:</label><br>
-        <input type="text" id="lastname" name="lastname" required><br><br>
-
-        <label for="middlename">Middle Name:</label><br>
-        <input type="text" id="middlename" name="middlename"><br><br>
-
-        <label for="age">Age:</label><br>
-        <input type="number" id="age" name="age" required><br><br>
-
-        <label for="address">Address:</label><br>
-        <input type="text" id="address" name="address" required><br><br>
-
-        <label for="course">Course&Section:</label><br>
-        <input type="text" id="course&Section" name="course&Section" required><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
+    <div class="form-container text-center">
+        <h2 class="mb-4">Student Registration Form</h2>
+        <form action="submit.php" method="POST">
+            <div class="mb-3 text-start">
+                <label for="firstname" class="form-label">First Name:</label>
+                <input type="text" id="firstname" name="firstname" class="form-control" required>
+            </div>
+            <div class="mb-3 text-start">
+                <label for="lastname" class="form-label">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" class="form-control" required>
+            </div>
+            <div class="mb-3 text-start">
+                <label for="middlename" class="form-label">Middle Name:</label>
+                <input type="text" id="middlename" name="middlename" class="form-control">
+            </div>
+            <div class="mb-3 text-start">
+                <label for="age" class="form-label">Age:</label>
+                <input type="number" id="age" name="age" class="form-control" required>
+            </div>
+            <div class="mb-3 text-start">
+                <label for="address" class="form-label">Address:</label>
+                <input type="text" id="address" name="address" class="form-control" required>
+            </div>
+            <div class="mb-3 text-start">
+                <label for="course" class="form-label">Course & Section:</label>
+                <input type="text" id="course&Section" name="course&Section" class="form-control" required>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
