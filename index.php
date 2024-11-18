@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         body {
-            background-image: url('https://via.placeholder.com/1500'); /* Replace with your image URL */
+            background-image: url('img/grad.jpg'); /* Replace with your image URL */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -17,12 +17,13 @@
             align-items: center;
         }
         .form-container {
-            background: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            max-width: 400px;
-            width: 100%;
+            background: white; /* Increased transparency */
+            padding: 30px; /* Adjusted padding */
+            border-radius: 50px; /* Softer edges */
+            box-shadow: 50px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+            max-width: 500px; /* Adjusted width */
+            width: 70%; /* For responsiveness */
+            line-height: 70%;
         }
         input[type="submit"] {
             background-color: #007bff;
