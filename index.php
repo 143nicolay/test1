@@ -16,10 +16,11 @@
         .form-container {
             background: #CFBF9E;
             padding: 30px;
-            border-radius: 20px;
+            border-radius: 50px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             max-width: 500px;
             width: 70%;
+            line-height: 50%;
         }
         input[type="submit"] {
             background-color: #007bff;
