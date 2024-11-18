@@ -14,7 +14,7 @@
             align-items: center;
         }
         .form-container {
-            background: white;
+            background: #CFBF9E;
             padding: 30px;
             border-radius: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
